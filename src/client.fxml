@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="540.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SocketClient">
+   <children>
+      <TextField fx:id="txt_input" layoutX="14.0" layoutY="100.0" prefHeight="27.0" prefWidth="495.0" />
+      <TextArea fx:id="output_window" editable="false" layoutX="14.0" layoutY="143.0" prefHeight="362.0" prefWidth="511.0" wrapText="true" />
+      <Button fx:id="btn_submit" layoutX="530.0" layoutY="100.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" text="Send" />
+      <Button fx:id="close" layoutX="530.0" layoutY="469.0" mnemonicParsing="false" text="Close Connection" />
+      <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Side" wrappingWidth="130.4296875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtPortNumber" layoutX="336.0" layoutY="60.0" prefHeight="27.0" prefWidth="109.0" />
+      <Text layoutX="243.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port Number" />
+      <Button fx:id="btn_connect" layoutX="530.0" layoutY="60.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="127.0" text="Connect" />
+      <Text layoutX="14.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server" />
+      <TextField fx:id="server_name" layoutX="79.0" layoutY="60.0" prefHeight="27.0" prefWidth="130.0" />
+   </children>
+</AnchorPane>
